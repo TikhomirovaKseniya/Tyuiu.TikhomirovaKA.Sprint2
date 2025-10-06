@@ -1,4 +1,4 @@
-﻿using Tyuiu.TikhomirovaKA.Sprint2.Task0.V3.Lib;
+﻿using Tyuiu.TikhomirovaKA.Sprint2.Task1.V17.Lib;
 
 internal class Program
 {
@@ -11,21 +11,24 @@ internal class Program
         Console.WriteLine("**************************************************************************");
         Console.WriteLine("* Спринт #2                                                              *");
         Console.WriteLine("* Тема: Алгоритмы разветвляющейся структуры                              *");
-        Console.WriteLine("* Задание #0                                                             *");
-        Console.WriteLine("* Вариант #3                                                             *");
+        Console.WriteLine("* Задание #1                                                             *");
+        Console.WriteLine("* Вариант #17                                                            *");
         Console.WriteLine("* Выполнила: Выполнила Тихомирова К. А. | ИБКСб-25-1                     *");
         Console.WriteLine("**************************************************************************");
         Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                       *");
         Console.WriteLine("**************************************************************************");
-        Console.WriteLine("* x = 45, y = 127                                                        *");
+        Console.WriteLine("* a = 135, b = 123, c = 455, d = 321                                     *");
         Console.WriteLine("**************************************************************************");
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                             *");
         Console.WriteLine("**************************************************************************");
 
-        int x = 45;
-        int y = 127;
+        int a = 135;
+        int b = 123;
+        int c = 455;
+        int d = 321;
+
         bool[] res = new bool[6];
-        res = ds.GetCompareOperations(x, y);
+        res = ds.GetLogicOperations(a, b, c, d);
 
         for (int i = 0; i < 6; i++)
         {
