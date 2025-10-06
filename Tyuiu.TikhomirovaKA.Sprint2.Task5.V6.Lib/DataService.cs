@@ -22,15 +22,15 @@ namespace Tyuiu.TikhomirovaKA.Sprint2.Task5.V6.Lib
             {
                 switch (value2)
                 {
-                    case 6: k = "Шестёрка "; break;
-                    case 7: k = "Семёрка "; break;
-                    case 8: k = "Восьмёрка "; break;
-                    case 9: k = "Девятка "; break;
-                    case 10: k = "Десятка "; break;
-                    case 11: k = "Валет "; break;
-                    case 12: k = "Дама "; break;
-                    case 13: k = "Король "; break;
-                    case 14: k = "Туз "; break;
+                    case 6: k = "шестёрка "; break;
+                    case 7: k = "семёрка "; break;
+                    case 8: k = "восьмёрка "; break;
+                    case 9: k = "девятка "; break;
+                    case 10: k = "десятка "; break;
+                    case 11: k = "валет "; break;
+                    case 12: k = "дама "; break;
+                    case 13: k = "король "; break;
+                    case 14: k = "туз "; break;
                 }
             }
             return k + m;
