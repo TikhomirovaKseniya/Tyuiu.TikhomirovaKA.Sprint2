@@ -9,8 +9,8 @@ internal class Program
         Console.WriteLine("**************************************************************************");
         Console.WriteLine("* Спринт #2                                                              *");
         Console.WriteLine("* Тема: Алгоритмы разветвляющейся структуры                              *");
-        Console.WriteLine("* Задание #3                                                             *");
-        Console.WriteLine("* Вариант #15                                                            *");
+        Console.WriteLine("* Задание #4                                                             *");
+        Console.WriteLine("* Вариант #2                                                             *");
         Console.WriteLine("* Выполнила: Выполнила Тихомирова К. А. | ИБКСб-25-1                     *");
         Console.WriteLine("**************************************************************************");
         Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                       *");
