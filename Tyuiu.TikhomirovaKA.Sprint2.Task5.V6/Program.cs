@@ -18,7 +18,7 @@ internal class Program
         Console.WriteLine("* Введите номер масти                                                    *");
         int value1, value2;
         value1 = Convert.ToInt32(Console.ReadLine());
-        if (value1 <= 1 || value1 >= 4)
+        if (value1 < 1 || value1 > 4)
         {
             Console.WriteLine("Нет такой масти");
             Console.WriteLine("* Введите номер масти                                                    *");
@@ -27,7 +27,7 @@ internal class Program
 
         Console.WriteLine("* Введите номер достоинства                                              *");
         value2 = Convert.ToInt32(Console.ReadLine());
-        if (value2 <= 6 || value2 >= 14)
+        if (value2 < 6 || value2 > 14)
         {
             Console.WriteLine("Нет такого достоинства карты");
             Console.WriteLine("* Введите номер достоинства                                              *");
