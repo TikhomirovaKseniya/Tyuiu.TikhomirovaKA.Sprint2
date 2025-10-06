@@ -14,6 +14,7 @@ namespace Tyuiu.TikhomirovaKA.Sprint2.Task1.V17.Lib
             res[3] = (a != d) ^ (b == c);
             res[4] = (c > a) & (b < d);
             res[5] = (a >= c) | (d <= b);
+
             return res;
         }
     }
